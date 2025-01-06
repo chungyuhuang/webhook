@@ -5,7 +5,7 @@ app = Flask(__name__)
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     handlers=[
-                        logging.FileHandler("geeksforgeeks.log"),
+                        logging.FileHandler("app.log"),
                         logging.StreamHandler()
                     ])
 
